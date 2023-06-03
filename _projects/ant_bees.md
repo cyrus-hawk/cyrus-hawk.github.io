@@ -179,7 +179,7 @@ following is a list of ants along with their special traits.
 # Final result
 
 Here is the demo of the game once all of the ant combatants have been
-implemented.
+implemented (it may take a little bit of time to load in your browser).
 
 ![](/assets/images/ant_bees/gameplay.gif)
 
