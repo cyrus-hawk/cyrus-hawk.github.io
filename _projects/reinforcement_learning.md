@@ -54,9 +54,9 @@ Reinforcement learning finds applications in various domains such as
 game playing, autonomous vehicles, robotics, resource management, and
 recommendation systems, just to name a few.
 
-# Cyrus' Implemented Projects for Reinforcement Learning (RL)
+# Reinforcement Learning Projects
 
-Cyrus has applied his knowledge in the implementation of Reinforcement
+I have applied my knowledge in the implementation of Reinforcement
 Learning (RL) in the Gridworld and Pacman environments, as illustrated
 below.
 
