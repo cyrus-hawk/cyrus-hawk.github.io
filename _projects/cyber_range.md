@@ -41,7 +41,7 @@ keeping the data localized and private.
 
 *Federated learning in abstract*
 (<sub>
-picture's [ref.](https://www.inovex.de/de/blog/federated-learning-frameworks-part-2/)
+picture's <a href="https://www.inovex.de/de/blog/federated-learning-frameworks-part-2/" target="_blank">ref.</a>
 </sub>)
 
 # What has been set up for this project?
