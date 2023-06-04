@@ -127,9 +127,10 @@ The four employed models are:
 After completing the desired amount of training, which is 50 rounds in
 this case, the models are saved for evaluation using unseen data. For
 evaluation purposes, 3,000 PCAP files were captured and stored. The
-evaluation data can be accessed at this
-[link](https://zenodo.org/record/7956304). The following shows the
-confusion matrices for the four models on the unseen data.
+evaluation data can be accessed at this <a
+href="https://zenodo.org/record/7956304" target="_blank">link</a>. The
+following shows the confusion matrices for the four models on the
+unseen data.
 
 ![](/assets/images/cybersecurity/final_result.png)
 
