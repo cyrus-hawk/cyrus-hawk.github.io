@@ -268,3 +268,4 @@ Approximate Q-learning.
 
 ![](/assets/images/reinforcement_learning/approx_q_pacman.gif)
 
+<sub><a href="http://ai.berkeley.edu/reinforcement.html" target="_blank">Reference link</a></sub>

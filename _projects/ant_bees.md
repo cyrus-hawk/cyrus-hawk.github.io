@@ -183,3 +183,4 @@ implemented (it may take a little bit of time to load in your browser).
 
 ![](/assets/images/ant_bees/gameplay.gif)
 
+<sub><a href="https://c88c.org/sp20/proj/ants/ants.zip" target="_blank">Source code stub</a></sub>
