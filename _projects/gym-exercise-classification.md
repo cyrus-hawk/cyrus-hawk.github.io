@@ -8,6 +8,8 @@ description: >
 
 title: Gym exercise classification
 
+img_loc: /assets/images/gym-exercise-classification/page_intro.png
+
 ---
 
 # Introduction
