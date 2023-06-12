@@ -9,6 +9,8 @@ description: >
 
 title: Ghost busters
 
+img_loc: /assets/images/ghost_busters/page_intro.png
+
 ---
 
 # Prelude
