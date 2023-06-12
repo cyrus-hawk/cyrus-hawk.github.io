@@ -21,20 +21,25 @@ title: Projects
 <!-- <p>{{ project.content | markdownify }}</p> -->
 
 <div class="card bg-light">
-	{% if project.img_loc %}
-	<a href="{{ project.url }}">
-		<img
-			class="img-thumbnail"
-			src="{{ project.img_loc }}"
-			alt="{{ project.title }}"
-		/>
-	</a>
-	{% endif %}
-	<div class="card-body">
+	<div class="card-body row">
+		<div class="col-3">
+		{% if project.img_loc %}
 		<a href="{{ project.url }}">
-			<h4 class="card-title">{{ project.name }}</h4>
+			<img
+				class="img-thumbnail"
+				src="{{ project.img_loc }}"
+				alt="{{ project.title }}"
+			/>
 		</a>
-		<p class="card-text">{{ project.description }}</p>
+		{% endif %}
+		</div>
+
+		<div class="col-9">
+		<a href="{{ project.url }}">
+			<h4 class="">{{ project.name }}</h4>
+		</a>
+		<p class="">{{ project.description }}</p>
+		</div>
 	</div>
 </div>
 {% endfor %}
