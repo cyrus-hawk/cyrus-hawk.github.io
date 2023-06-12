@@ -8,6 +8,8 @@ description: >
 
 title: Virus drug treatment simulation
 
+img_loc: /assets/images/virus_drug_stochastic_simulation/page_intro.png
+
 ---
 
 # Introduction
