@@ -8,6 +8,8 @@ description: >
 
 title: Bridging two-way radios and telephones
 
+img_loc: /assets/images/bridging-two-way-radios-and-telephones/page_intro.png
+
 ---
 
 # Prelude
