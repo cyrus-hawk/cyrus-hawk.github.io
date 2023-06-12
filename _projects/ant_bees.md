@@ -8,7 +8,7 @@ description: >
 
 title: Ants vs. SomeBees
 
-asset_loc: ../assets/images/ant_bees/
+img_loc: ../assets/images/ant_bees/page_intro.png
 
 ---
 
