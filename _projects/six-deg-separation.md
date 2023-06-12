@@ -7,6 +7,8 @@ description: >
 
 title: Six Degrees of Separation
 
+img_loc: /assets/images/six-dgrees-of-separation/page_intro.png
+
 ---
 
 # Introduction
