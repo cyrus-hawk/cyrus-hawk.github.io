@@ -8,6 +8,8 @@ description: >
 
 title: AI Search
 
+img_loc: /assets/images/ai-search/page_intro.png
+
 ---
 
 # Introduction
