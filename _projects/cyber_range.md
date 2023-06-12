@@ -6,6 +6,8 @@ description: >
     A cyber range constructed in the panOulu public network to help
     mitigate cyber threats by...
 title: Cybersecurity - Federated Learning
+
+img_loc: /assets/images/cybersecurity/page_intro.png
 ---
 
 # Introduction
