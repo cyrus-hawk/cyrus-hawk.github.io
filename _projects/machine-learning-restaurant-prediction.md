@@ -8,6 +8,8 @@ description: >
 
 title: Machine learning prediction for restaurant ratings
 
+img_loc: /assets/images/machine-learning-restaurant-prediction/page_intro.png
+
 ---
 
 # Motivation
