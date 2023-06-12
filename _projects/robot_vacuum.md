@@ -8,6 +8,8 @@ description: >
 
 title: Robot vacuum simulation
 
+img_loc: /assets/images/robot_vacuum/page_intro.png
+
 ---
 
 # Motivation
