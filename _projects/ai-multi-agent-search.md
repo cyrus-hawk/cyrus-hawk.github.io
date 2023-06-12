@@ -8,6 +8,8 @@ description: >
 
 title: AI multi-agent search
 
+img_loc: /assets/images/ai-multi-agent-search/page_intro.png
+
 ---
 
 # Introduction
