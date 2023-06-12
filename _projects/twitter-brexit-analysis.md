@@ -7,6 +7,8 @@ description: >
 
 title: Twitter Brexit analysis
 
+img_loc: /assets/images/twitter-brexit-analysis/page_intro.png
+
 ---
 
 # Introduction
