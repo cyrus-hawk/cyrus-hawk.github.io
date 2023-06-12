@@ -3,6 +3,10 @@ name: Reinforcement Learning (RL)
 description: >
     Exploratory agents, who are fond of learning through trial and
     error...
+
+title: Reinforcement Learning (RL)
+
+img_loc: /assets/images/reinforcement_learning/page_intro.png
 ---
 
 # Reinforcement Learning (RL)
