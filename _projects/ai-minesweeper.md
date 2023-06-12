@@ -8,6 +8,8 @@ description: >
 
 title: AI Minesweeper
 
+img_loc: /assets/images/ai-minesweeper/page_intro.png
+
 ---
 
 # Motivation
