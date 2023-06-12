@@ -8,6 +8,8 @@ description: >
 
 title: Neural Networks
 
+img_loc: /assets/images/neural-networks/page_intro.png
+
 ---
 
 # Introduction
