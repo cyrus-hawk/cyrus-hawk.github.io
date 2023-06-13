@@ -89,7 +89,7 @@ title: Home
 </div>
 
 <div class="container-narrow">
-	<div class="text-center mb-5">
+	<div class="text-center mb-5 mt-5">
 		<h2 class="marker marker-center">My Skills</h2>
 	</div>
 	<div class="text-center">
@@ -285,7 +285,7 @@ title: Home
 </div>
 
 <div class="container-narrow">
-	<div class="text-center mb-5">
+	<div class="text-center mb-5 mt-5">
 		<h2 class="marker marker-center">Experience</h2>
 	</div>
 	<div class="row">
@@ -369,7 +369,7 @@ title: Home
 						systems.
 					</p>
 
-					<div class="container">
+					<div class="container mt-5">
 						<h2>GitHub Certificates</h2>
 						<p>
 							I have acquired the following three GitHub
@@ -410,7 +410,9 @@ title: Home
 									class="collapse"
 									data-parent="#accordion"
 								>
-									<div class="card-body text-justify">
+									<div
+										class="card-body text-justify"
+									>
 										GitHub Actions is a powerful
 										tool that enables the
 										automation of workflows,
@@ -453,7 +455,9 @@ title: Home
 									class="collapse"
 									data-parent="#accordion"
 								>
-									<div class="card-body text-justify">
+									<div
+										class="card-body text-justify"
+									>
 										As an expert in GitHub Admins,
 										I possess the skills and
 										knowledge necessary to manage
@@ -497,7 +501,9 @@ title: Home
 									class="collapse"
 									data-parent="#accordion"
 								>
-									<div class="card-body text-justify">
+									<div
+										class="card-body text-justify"
+									>
 										My experience in Advanced
 										Securities allows me to
 										provide clients with robust
@@ -596,5 +602,79 @@ title: Home
 				</div>
 			</div>
 		</div>
+	</div>
+</div>
+
+<div class="container-narrow">
+	<div class="text-center mb-5 mt-5">
+		<h2 class="marker marker-center">Projects</h2>
+	</div>
+	<p>Check out the projects that I've worked on.</p>
+</div>
+
+<!--
+  <style>
+  /* Make the image fully responsive */
+  .carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+  </style>
+  -->
+
+<div class="d-flex justify-content-center">
+	<div id="demo" class="carousel slide" data-ride="carousel">
+		<!--
+  <ul class="carousel-indicators">
+	{% assign index = 0 %}
+	{% for project in site.projects %}
+	  {% assign index = forloop.index0 %}
+	  <li data-target="#demo" data-slide-to="{{index}}" {%if index == 1 %} class="active" {% endif %}></li>
+	{% endfor %}
+  </ul>
+	-->
+		<div class="carousel-inner">
+			{% assign index = 0 %} {% for project in site.projects %}
+			{% assign index = forloop.index0 %}
+			<div
+				class="
+					carousel-item
+					{%if
+					index==
+					1
+					%}
+					active
+					{%
+					endif
+					%}
+				"
+			>
+				<a
+					href="{{project.url}}"
+					data-toggle="tooltip"
+					title="{{project.title}}&#13;&#13;{{project.description}}"
+				>
+					<img
+						src="{{ project.img_loc }}"
+						alt="{{ project.title }}"
+					/>
+				</a>
+			</div>
+			{% endfor %}
+		</div>
+		<a
+			class="carousel-control-prev"
+			href="#demo"
+			data-slide="prev"
+		>
+			<span class="carousel-control-prev-icon"></span>
+		</a>
+		<a
+			class="carousel-control-next"
+			href="#demo"
+			data-slide="next"
+		>
+			<span class="carousel-control-next-icon"></span>
+		</a>
 	</div>
 </div>
