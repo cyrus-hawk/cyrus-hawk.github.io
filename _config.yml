@@ -7,6 +7,11 @@ defaults:
       path: ""
     values:
       layout: "default"
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "project"
 #  - scope:
 #      path: ""
 #      type: "authors"
